@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vmiachko/numericalMethods/Matrix.cpp
+Matrix.hpp
+/Users/vmiachko/numericalMethods/Matrix.hpp
+
+/Users/vmiachko/numericalMethods/Matrix.hpp
+vector
+-
+iostream
+-
+cmath
+-
+
