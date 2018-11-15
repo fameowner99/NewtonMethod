@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/vmiachko/numericalMethods/Matrix.cpp
+/home/fameowner/NumAnalLabs/lab3/Matrix.cpp
 Matrix.hpp
-/Users/vmiachko/numericalMethods/Matrix.hpp
+/home/fameowner/NumAnalLabs/lab3/Matrix.hpp
 
-/Users/vmiachko/numericalMethods/Matrix.hpp
+/home/fameowner/NumAnalLabs/lab3/Matrix.hpp
 vector
 -
 iostream

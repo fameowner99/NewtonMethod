@@ -6,21 +6,38 @@
 #include <iostream>
 #include <cmath>
 
+
+const double epsilon = 0.0000000005;
+
 class Matrix
 {
 public:
+	class Row
+	{
+	private:
+		friend class Matrix;
+		Row(Matrix& parent,int row);
+		Matrix&	_m_parent;
+		int 	_m_row;
+	public:
+		double &operator[](int col);
+	};
     Matrix(Matrix&);
-    Matrix(std::vector<std::vector<double>>);
+    Matrix(int row, int col);
+   	Matrix(std::vector<std::vector<double>>);
     bool    operator==(const Matrix&)const;
     Matrix  &operator=(const Matrix&);
     Matrix  operator+(const Matrix&);
     Matrix  operator-(const Matrix&);
-    Matrix  &operator*(const Matrix&);
-    Matrix  &operator*(const double&);
-    Matrix  determinant();
+    Matrix  operator*(const Matrix&);
+    Matrix  operator*(const double&);
+	Row		operator[](int row);
+	const int 	getSizeRows()const;
+	const int 	getSizeColomn()const;
+
+	double  determinant();
     Matrix  inverse();
-    Matrix  transposition();
-    Matrix
+    Matrix  transpose();
 
     void    setMatrix(const std::vector<std::vector<double>>&);
     std::vector<std::vector<double>> getMatrix()const;
@@ -29,7 +46,11 @@ public:
 
 private:
     std::vector<std::vector<double>> matrix;
-    const double epsilon = 0.00000000000005;
+    double det(std::vector<std::vector<double>> m, int size);
+	std::vector<std::vector<double>> getCofactor(std::vector<std::vector<double>> m, int n, int size);
 };
+
+
+
 
 #endif
