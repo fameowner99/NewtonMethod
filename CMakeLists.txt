@@ -7,4 +7,5 @@ include_directories(.)
 
 add_executable(numericalMethods
         Matrix.cpp
-        Matrix.hpp)
+        Matrix.hpp
+        lab3.cpp)

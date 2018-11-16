@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/numericalMethods.dir/Matrix.cpp.o"
+  "CMakeFiles/numericalMethods.dir/lab3.cpp.o"
   "numericalMethods.pdb"
   "numericalMethods"
 )

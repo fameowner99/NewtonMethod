@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fameowner/NumAnalLabs/lab3/Matrix.cpp" "/home/fameowner/NumAnalLabs/lab3/cmake-build-debug/CMakeFiles/numericalMethods.dir/Matrix.cpp.o"
+  "/Users/vmiachko/numAnal/Matrix.cpp" "/Users/vmiachko/numAnal/cmake-build-debug/CMakeFiles/numericalMethods.dir/Matrix.cpp.o"
+  "/Users/vmiachko/numAnal/lab3.cpp" "/Users/vmiachko/numAnal/cmake-build-debug/CMakeFiles/numericalMethods.dir/lab3.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

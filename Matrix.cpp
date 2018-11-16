@@ -83,9 +83,8 @@ Matrix& Matrix::operator=(const Matrix &matrix)
     if (!(*this == matrix))
     {
         this->setMatrix(matrix.getMatrix());
-        return (*this);
     }
-
+    return (*this);
 }
 
 Matrix Matrix::operator+(const Matrix &matrix)
@@ -266,12 +265,34 @@ double Matrix::det(std::vector<std::vector<double>> m, int size)
 	    return (m[0][0] * m[1][1] - m[1][0] * m[0][1]);
 	 for (int i = 0; i < size; ++i)
      {
-
-	     D += sign * m[0][i] * det(getCofactor(m, i, size), size - 1);
+	     if (m[0][i] != 0)
+	        D += sign * m[0][i] * det(getCofactor(m, i, size), size - 1);
 	     sign = -sign;
      }
 
     return (D);
+}
+
+std::vector<std::vector<double>> Matrix::getCofactorInverse(std::vector<std::vector<double>> m, int y, int x, int size)
+{
+
+    std::vector<std::vector<double>> result;
+    std::vector<double> line;
+
+    for (int i = 0; i < size; ++i)
+    {
+        if (i == y)
+            continue ;
+        for (int j = 0; j < size; ++j)
+        {
+            if (j == x)
+                continue ;
+            line.push_back(m[i][j]);
+        }
+        result.push_back(line);
+        line.clear();
+    }
+    return (result);
 }
 
 Matrix Matrix::transpose()
@@ -292,17 +313,25 @@ Matrix Matrix::transpose()
     return (r);
 }
 
-int main()
+Matrix Matrix::inverse()
 {
-    std::vector<std::vector<double>> A = {{1,2, 3},{4, 5, 6}, {7,8,9}};
-    std::vector<std::vector<double>> A1 = {{1}};
-    Matrix B(A);
-    B.print();
-    std::cout << std::endl;
-    Matrix C(B);
-    C = B.transpose();
-    C.print();
+    std::vector<std::vector<double>>    result;
+    std::vector<double>                 line;
+    int sign = -1;
 
+    if (determinant() == 0)
+        throw std::runtime_error("Determinant equal to zero could not find inverse matrix.");
 
-    return (0);
+    for (int y = 0; y < matrix.size(); ++y)
+    {
+        for (int x = 0; x < matrix[y].size(); ++x)
+        {
+            line.push_back(pow(sign, x + y) * Matrix(getCofactorInverse(matrix, x, y, (int)matrix.size())).determinant());
+        }
+        result.push_back(line);
+        line.clear();
+    }
+    Matrix r(result);
+    r = r * (1 / determinant());
+    return (r);
 }

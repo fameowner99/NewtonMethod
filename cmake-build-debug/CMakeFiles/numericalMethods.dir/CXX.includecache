@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/fameowner/NumAnalLabs/lab3/Matrix.cpp
-Matrix.hpp
-/home/fameowner/NumAnalLabs/lab3/Matrix.hpp
-
-/home/fameowner/NumAnalLabs/lab3/Matrix.hpp
+/Users/vmiachko/numAnal/Matrix.hpp
 vector
 -
 iostream
 -
 cmath
 -
+
+/Users/vmiachko/numAnal/lab3.cpp
+Matrix.hpp
+/Users/vmiachko/numAnal/Matrix.hpp
 

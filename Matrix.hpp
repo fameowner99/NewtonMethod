@@ -48,6 +48,8 @@ private:
     std::vector<std::vector<double>> matrix;
     double det(std::vector<std::vector<double>> m, int size);
 	std::vector<std::vector<double>> getCofactor(std::vector<std::vector<double>> m, int n, int size);
+    std::vector<std::vector<double>> getCofactorInverse(std::vector<std::vector<double>> m, int y, int x, int size);
+
 };
 
 

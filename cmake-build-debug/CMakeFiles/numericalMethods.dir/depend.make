@@ -4,3 +4,6 @@
 CMakeFiles/numericalMethods.dir/Matrix.cpp.o: ../Matrix.cpp
 CMakeFiles/numericalMethods.dir/Matrix.cpp.o: ../Matrix.hpp
 
+CMakeFiles/numericalMethods.dir/lab3.cpp.o: ../Matrix.hpp
+CMakeFiles/numericalMethods.dir/lab3.cpp.o: ../lab3.cpp
+
