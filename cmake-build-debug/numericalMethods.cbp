@@ -8,43 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/vmiachko/numAnal/cmake-build-debug"/>
+				<Option working_dir="/Users/vmiachko/numAnal/Newton/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/vmiachko/numAnal/cmake-build-debug"/>
+				<Option working_dir="/Users/vmiachko/numAnal/Newton/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/vmiachko/numAnal/cmake-build-debug"/>
+				<Option working_dir="/Users/vmiachko/numAnal/Newton/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="numericalMethods">
-				<Option output="/Users/vmiachko/numAnal/cmake-build-debug/numericalMethods" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/vmiachko/numAnal/cmake-build-debug"/>
+				<Option output="/Users/vmiachko/numAnal/Newton/cmake-build-debug/numericalMethods" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vmiachko/numAnal/Newton/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/vmiachko/numAnal/."/>
+					<Add directory="/Users/vmiachko/numAnal/Newton/."/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -54,20 +54,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 numericalMethods"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 numericalMethods"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="numericalMethods/fast">
-				<Option output="/Users/vmiachko/numAnal/cmake-build-debug/numericalMethods" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/vmiachko/numAnal/cmake-build-debug"/>
+				<Option output="/Users/vmiachko/numAnal/Newton/cmake-build-debug/numericalMethods" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vmiachko/numAnal/Newton/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/vmiachko/numAnal/."/>
+					<Add directory="/Users/vmiachko/numAnal/Newton/."/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -77,23 +77,23 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 numericalMethods/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 numericalMethods/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vmiachko/numAnal/Newton/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vmiachko/numAnal/Matrix.cpp">
+		<Unit filename="/Users/vmiachko/numAnal/Newton/Matrix.cpp">
 			<Option target="numericalMethods"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/numAnal/Matrix.hpp">
+		<Unit filename="/Users/vmiachko/numAnal/Newton/Matrix.hpp">
 			<Option target="numericalMethods"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/numAnal/lab3.cpp">
+		<Unit filename="/Users/vmiachko/numAnal/Newton/lab3.cpp">
 			<Option target="numericalMethods"/>
 		</Unit>
-		<Unit filename="/Users/vmiachko/numAnal/CMakeLists.txt">
+		<Unit filename="/Users/vmiachko/numAnal/Newton/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

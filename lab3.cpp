@@ -58,8 +58,64 @@ void    newton()
 
 }
 
+
+double maxMatrix(Matrix &vec)
+{
+    double max;
+    auto v = vec.getMatrix();
+
+    max = 0;
+    for (int i = 0; i < v.size(); ++i)
+    {
+        if (std::abs(max) < std::abs(v[i][0]))
+            max = v[i][0];
+    }
+    return (max);
+
+}
+
+void    findMaxMin(Matrix &A)
+{
+
+    std::vector<std::vector<double>> vectX = {{1}, {1}, {1}};
+
+    double lambda;
+
+
+    Matrix x(vectX);
+    Matrix y(3, 1);
+
+    int i = 0;
+    while (i < 100)
+    {
+        y = A * x;
+        lambda = maxMatrix(y);
+        x = y * (1 / std::abs(maxMatrix(y)));
+        ++i;
+    }
+    std::cout << "Lambda: "<< lambda << std::endl;
+    std::cout << "Vector: "<< x[0][0] << " " << x[1][0] << " " << x[2][0] << std::endl;
+}
+
+void    findEigenValues()
+{
+    std::vector<std::vector<double>> matrix = {{5, 6 ,3}, {-1, 0 ,1}, {1, 2, -1}};
+    Matrix A(matrix);
+
+    std::cout << "MAX LAMBDA:" << std::endl;
+    findMaxMin(A);
+    std::cout << "**********************" << std::endl;
+
+    std::cout << "MIN LAMBDA:" << std::endl;
+    A = A.inverse();
+    findMaxMin(A);
+
+
+}
+
 int main()
 {
-    newton();
+    //newton();
+    findEigenValues();
     return (0);
 }

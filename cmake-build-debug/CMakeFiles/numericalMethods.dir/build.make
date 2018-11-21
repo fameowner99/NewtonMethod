@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vmiachko/numAnal
+CMAKE_SOURCE_DIR = /Users/vmiachko/numAnal/Newton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vmiachko/numAnal/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/vmiachko/numAnal/Newton/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/numericalMethods.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/numericalMethods.dir/flags.make
 
 CMakeFiles/numericalMethods.dir/Matrix.cpp.o: CMakeFiles/numericalMethods.dir/flags.make
 CMakeFiles/numericalMethods.dir/Matrix.cpp.o: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/numAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/numericalMethods.dir/Matrix.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/numericalMethods.dir/Matrix.cpp.o -c /Users/vmiachko/numAnal/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/numAnal/Newton/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/numericalMethods.dir/Matrix.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/numericalMethods.dir/Matrix.cpp.o -c /Users/vmiachko/numAnal/Newton/Matrix.cpp
 
 CMakeFiles/numericalMethods.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numericalMethods.dir/Matrix.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vmiachko/numAnal/Matrix.cpp > CMakeFiles/numericalMethods.dir/Matrix.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vmiachko/numAnal/Newton/Matrix.cpp > CMakeFiles/numericalMethods.dir/Matrix.cpp.i
 
 CMakeFiles/numericalMethods.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numericalMethods.dir/Matrix.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vmiachko/numAnal/Matrix.cpp -o CMakeFiles/numericalMethods.dir/Matrix.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vmiachko/numAnal/Newton/Matrix.cpp -o CMakeFiles/numericalMethods.dir/Matrix.cpp.s
 
 CMakeFiles/numericalMethods.dir/lab3.cpp.o: CMakeFiles/numericalMethods.dir/flags.make
 CMakeFiles/numericalMethods.dir/lab3.cpp.o: ../lab3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/numAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/numericalMethods.dir/lab3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/numericalMethods.dir/lab3.cpp.o -c /Users/vmiachko/numAnal/lab3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vmiachko/numAnal/Newton/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/numericalMethods.dir/lab3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/numericalMethods.dir/lab3.cpp.o -c /Users/vmiachko/numAnal/Newton/lab3.cpp
 
 CMakeFiles/numericalMethods.dir/lab3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numericalMethods.dir/lab3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vmiachko/numAnal/lab3.cpp > CMakeFiles/numericalMethods.dir/lab3.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vmiachko/numAnal/Newton/lab3.cpp > CMakeFiles/numericalMethods.dir/lab3.cpp.i
 
 CMakeFiles/numericalMethods.dir/lab3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numericalMethods.dir/lab3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vmiachko/numAnal/lab3.cpp -o CMakeFiles/numericalMethods.dir/lab3.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vmiachko/numAnal/Newton/lab3.cpp -o CMakeFiles/numericalMethods.dir/lab3.cpp.s
 
 # Object files for target numericalMethods
 numericalMethods_OBJECTS = \
@@ -95,7 +95,7 @@ numericalMethods: CMakeFiles/numericalMethods.dir/Matrix.cpp.o
 numericalMethods: CMakeFiles/numericalMethods.dir/lab3.cpp.o
 numericalMethods: CMakeFiles/numericalMethods.dir/build.make
 numericalMethods: CMakeFiles/numericalMethods.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vmiachko/numAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable numericalMethods"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vmiachko/numAnal/Newton/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable numericalMethods"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/numericalMethods.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/numericalMethods.dir/clean:
 .PHONY : CMakeFiles/numericalMethods.dir/clean
 
 CMakeFiles/numericalMethods.dir/depend:
-	cd /Users/vmiachko/numAnal/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vmiachko/numAnal /Users/vmiachko/numAnal /Users/vmiachko/numAnal/cmake-build-debug /Users/vmiachko/numAnal/cmake-build-debug /Users/vmiachko/numAnal/cmake-build-debug/CMakeFiles/numericalMethods.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vmiachko/numAnal/Newton/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vmiachko/numAnal/Newton /Users/vmiachko/numAnal/Newton /Users/vmiachko/numAnal/Newton/cmake-build-debug /Users/vmiachko/numAnal/Newton/cmake-build-debug /Users/vmiachko/numAnal/Newton/cmake-build-debug/CMakeFiles/numericalMethods.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/numericalMethods.dir/depend
 

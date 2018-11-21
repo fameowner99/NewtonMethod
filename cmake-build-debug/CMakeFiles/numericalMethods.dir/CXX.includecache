@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/vmiachko/numAnal/Matrix.hpp
+/Users/vmiachko/numAnal/Newton/Matrix.hpp
 vector
 -
 iostream
@@ -14,7 +14,7 @@ iostream
 cmath
 -
 
-/Users/vmiachko/numAnal/lab3.cpp
+/Users/vmiachko/numAnal/Newton/lab3.cpp
 Matrix.hpp
-/Users/vmiachko/numAnal/Matrix.hpp
+/Users/vmiachko/numAnal/Newton/Matrix.hpp
 
